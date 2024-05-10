@@ -24,7 +24,7 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#fc999b;
+background-color:#f70004ec;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
@@ -40,7 +40,12 @@ ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even){background: #dfdfdf;
+  border-radius: 5px;
+  margin-top:2px;
+
+
+}
 
 .strike{text-decoration: line-through;}
 
@@ -56,14 +61,14 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
-	font-weight: 800;
+	color: #1e966cd0;
+	font-weight: 400;
 }
 
 .crossOutButton {
     background: none;
     border: none;
     float: right;
-    color: #025f70;
-    font-weight: 800;
+    color: #1e966cd0;
+    font-weight: 400;
   }
